@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/simple-lightbox.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sinster - Sneakers are the new sin</title>
+  </head>
+  <body>
+    <header>
+      <nav class="intro">
+        <div class="container">
+          <h1 class="logo"><span>Sin</span>ster</h1>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main-a">
+        <div class="section-a">
+          <h2>Sneakers are the new <span>Sin</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            soluta ad, laborum ab doloremque mollitia maiores sint repellendus
+            facere voluptatibus.
+          </p>
+        </div>
+        <div class="main-image">
+            <img src="/img/ox-street-BWPqHZBhMVA-unsplash.jpg" alt="Sneaker">
+        </div>
+      </section>
+    </main>
+
+    <script src="/js/simple-lightbox.jquery.min.js"></script>
+    <script src="/js/simple-lightbox.min.js"></script>
+    <script>
+      $(function () {
+        const $gallery = $(".gallery a").simpleLightbox();
+      });
+    </script>
+  </body>
+</html>
